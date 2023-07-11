@@ -1,0 +1,29 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="26519a88-4722-4617-89e9-bc64ea7587b9" Version="1.1" Language="en-US" Publisher="John Miller" />
+    <DisplayName>Unity File Templates and Snippets</DisplayName>
+    <Description xml:space="preserve">File item templates and snippets for Unity projects.</Description>
+    <License>LICENSE.txt</License>
+    <ReleaseNotes>RELEASENOTES.txt</ReleaseNotes>
+    <PreviewImage>preview.png</PreviewImage>
+    <Tags>unity,game,template,snippet</Tags>
+    <Preview>true</Preview>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Unity" Version="[17.0.0.0,17.6.1.0)" DisplayName="Visual Studio Tools for Unity" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="UnityProjectTemplates.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="snippets.pkgdef" />
+  </Assets>
+  <Dependencies>
+    <Dependency Version="[17.0,18.0)" Id="Microsoft.VisualStudio.MPF.17.0" DisplayName="Visual Studio MPF 17.0" />
+  </Dependencies>
+</PackageManifest>

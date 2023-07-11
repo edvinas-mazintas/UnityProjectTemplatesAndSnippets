@@ -1,0 +1,189 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\ECS\ComponentData.csharp</RelativePathOnDisk>
+    <TemplateFileName>ComponentData.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.ComponentData</TemplateID>
+        <DefaultName>NewComponentData.cs</DefaultName>
+        <Name>Unity Entity Component Data</Name>
+        <Description>Creates a new IComponentData struct.</Description>
+        <SortOrder>10</SortOrder>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\ECS\System.csharp</RelativePathOnDisk>
+    <TemplateFileName>System.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.EntityComponentSystem</TemplateID>
+        <DefaultName>NewEntityComponentSystem.cs</DefaultName>
+        <Name>Unity Entity Component System</Name>
+        <Description>Creates a new SystemBase class.</Description>
+        <SortOrder>11</SortOrder>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\MonoBehaviour.csharp</RelativePathOnDisk>
+    <TemplateFileName>MonoBehaviour.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.MonoBehaviour</TemplateID>
+        <DefaultName>NewMonoBehaviour.cs</DefaultName>
+        <Name>Unity MonoBehaviour</Name>
+        <Description>Creates a new MonoBehaviour class.</Description>
+        <SortOrder>1</SortOrder>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\ScriptableObject.csharp</RelativePathOnDisk>
+    <TemplateFileName>ScriptableObject.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.ScriptableObject</TemplateID>
+        <DefaultName>NewScriptableObject.cs</DefaultName>
+        <Name>Unity ScriptableObject</Name>
+        <Description>Creates a new ScriptableObject class.</Description>
+        <SortOrder>2</SortOrder>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\Shaders\Compute.csharp</RelativePathOnDisk>
+    <TemplateFileName>Compute.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.ComputeShader</TemplateID>
+        <DefaultName>NewComputeShader.compute</DefaultName>
+        <Name>Unity Compute Shader</Name>
+        <Description>Creates a new compute shader file.</Description>
+        <SortOrder>23</SortOrder>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\Shaders\ImageEffect.csharp</RelativePathOnDisk>
+    <TemplateFileName>ImageEffect.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.ImageEffectShader</TemplateID>
+        <DefaultName>NewImageEffectShader.shader</DefaultName>
+        <Name>Unity Image Effect Shader</Name>
+        <Description>Creates a new image effect shader file.</Description>
+        <SortOrder>22</SortOrder>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\Shaders\RayTracing.csharp</RelativePathOnDisk>
+    <TemplateFileName>RayTracing.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.RayTraceShader</TemplateID>
+        <DefaultName>NewRayTracingShader.raytrace</DefaultName>
+        <Name>Unity Ray Trace Shader</Name>
+        <Description>Creates a new ray tracing shader file.</Description>
+        <SortOrder>25</SortOrder>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\Shaders\Surface.csharp</RelativePathOnDisk>
+    <TemplateFileName>Surface.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.SurfaceShader</TemplateID>
+        <DefaultName>NewSurfaceShader.shader</DefaultName>
+        <Name>Unity Surface Shader</Name>
+        <Description>Creates a new surface shader file.</Description>
+        <SortOrder>20</SortOrder>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\Shaders\Unlit.csharp</RelativePathOnDisk>
+    <TemplateFileName>Unlit.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.UnlitShader</TemplateID>
+        <DefaultName>NewUnlitShader.shader</DefaultName>
+        <Name>Unity Unlit Shader</Name>
+        <Description>Creates a new unlit shader file.</Description>
+        <SortOrder>21</SortOrder>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\StateMachineBehaviour.csharp</RelativePathOnDisk>
+    <TemplateFileName>StateMachineBehaviour.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.StateMachineBehaviour</TemplateID>
+        <DefaultName>NewStateMachineBehaviour.cs</DefaultName>
+        <Name>Unity StateMachineBehaviour</Name>
+        <Description>Creates a new StateMachineBehaviour class.</Description>
+        <SortOrder>3</SortOrder>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\Unity\UnityTestCase.csharp</RelativePathOnDisk>
+    <TemplateFileName>UnityTestCase.csharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>Microsoft.Unity.UnityTestCase</TemplateID>
+        <DefaultName>NewUnityTestCase.cs</DefaultName>
+        <Name>Unity Test Case</Name>
+        <Description>Creates a new class with default items for unit testing with Unity.</Description>
+        <SortOrder>4</SortOrder>
+        <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+        <ProjectType>CSharp</ProjectType>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <AppliesTo>Unity + CSharp</AppliesTo>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

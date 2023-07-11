@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30410.7
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityProjectTemplates", "UnityProjectTemplates\UnityProjectTemplates.csproj", "{9D2B44AB-87D3-4DC8-87F8-1D9CC4E5C1FC}"
 EndProject
